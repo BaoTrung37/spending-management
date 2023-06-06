@@ -1,16 +1,23 @@
-# pedding_management
+# App name - Flutter
 
-A new Flutter project.
+## 📖 Project description
+This project serves as a template project for Flutter applications. You can generate a new repository by clicking "Use this remplate" above.
 
-## Getting Started
+## 🔧 Setup and Installation
+- Execute `$ flutter doctor` to verify installations
+- Execute `$ pub get` to pull project dependencies
+- Execute a run configuration of choice
+  - `$ flutter run --flavor staging -t lib/main_staging.dart`
+  - `$ flutter run --flavor production -t lib/main_production.dart`
 
-This project is a starting point for a Flutter application.
+## 🌲 Branches
+* `master` - Latest version in the app store.
+* `develop` - Default. Feature branches are merged in when complete and then deleted.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔗 Useful links
+- [Jira Board](https://TODO)
+- [Confluence](https://TODO)
+- [Slack Channel](https://TODO)
+- [OpenAPI Specification](https://TODO)
+- [NStack](https://TODO)
+- [Figma Design](https://TODO)
