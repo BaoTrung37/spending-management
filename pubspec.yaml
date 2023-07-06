@@ -27,11 +27,13 @@ dependencies:
   # UI
   cupertino_icons: ^1.0.5
   flutter_svg: ^2.0.6
-  flutter_screenutil: ^5.8.4
 
   # Net
   dio: ^5.2.0
   auto_route: ^7.4.0
+
+  # Picker
+  syncfusion_flutter_datepicker: ^21.2.10
 
   # Persistence
   shared_preferences: ^2.0.13

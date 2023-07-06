@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
                   Expanded(
                     child: Align(
                       child: Text(
-                        'Sổ thu chi',
+                        'Money Manager',
                         style: AppTextStyles.headingSmall,
                       ),
                     ),
@@ -32,22 +32,22 @@ class _HomePageState extends State<HomePage> {
               ),
               Row(
                 children: [
-                  Column(
-                    children: [
-                      GestureDetector(
-                        onTap: () {
-                          showDatePicker(
-                            context: context,
-                            initialDate: DateTime.now(),
-                            firstDate: DateTime(2021),
-                            lastDate: DateTime(2023),
-                            initialDatePickerMode: DatePickerMode.year,
-                            currentDate: DateTime.now(),
-                          );
-                        },
-                        child: const Text('2023'),
-                      ),
-                    ],
+                  GestureDetector(
+                    onTap: () {
+                    },
+                    child: const Column(
+                      children: [
+                        Text(
+                          '2023',
+                          style: AppTextStyles.headingXXSmallLight,
+                        ),
+                        SizedBox(height: 8),
+                        Text(
+                          'Jun',
+                          style: AppTextStyles.headingSmall,
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
